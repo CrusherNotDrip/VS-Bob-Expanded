@@ -140,9 +140,6 @@ class MainMenuState extends MusicBeatState
 		}*/
 
 		//var curoffset:Float = 100;
-		#if MODS_ALLOWED
-		pushModMenuItemsToList(Paths.currentModDirectory);
-		#end
 
 		for (i in 0...optionShit.length)
 		{

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nightmare mode.png">
+	<SubTexture name="nightmare mode static0000" x="0" y="0" width="276" height="265"/>
+	<SubTexture name="nightmare mode press0000" x="276" y="0" width="276" height="265"/>
+</TextureAtlas>

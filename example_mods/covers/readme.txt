@@ -1,0 +1,1 @@
+Drop your custom cover .json files here!

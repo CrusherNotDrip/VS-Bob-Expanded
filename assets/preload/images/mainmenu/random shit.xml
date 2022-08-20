@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="random shit.png">
+	<SubTexture name="random shit static0000" x="0" y="0" width="271" height="267"/>
+	<SubTexture name="random shit press0000" x="271" y="0" width="271" height="267"/>
+</TextureAtlas>

@@ -87,29 +87,29 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Vs Bob Expanded Team'],
-			['RespectRox', 			'respectrox',       'Director\nArtist + Charter', 									'https://twitter.com/Respectrox',       'FF00FF'],
-			['Thehairyblueberry',	'thehairyblueberry','Co-Director\nComposer',										'', '0066CC'],
+			['RespectRox', 			'respectrox',       'Director\nArtist + Charter + Musician', 						'https://twitter.com/Respectrox',       'FF00FF'],
+			['Thehairyblueberry',	'thehairyblueberry','Co-Director\nComposer',										'https://twitter.com/Hairyblueberry', 	'0066CC'],
 			['Ronyx',               'ronyx', 			'Programmer',													'https://twitter.com/ronyx04',			'0099FF'],
 			['CrusherNotDrip', 		'crushernotdrip',   'Programmer\n"WHY IS MEENY BUILT DIFFERENT"',					'https://twitter.com/CrusherNotDrip',	'00CCFF'],
 			['EvilRevolt',			'evilrevolt',		'Artist',														'', 'FFFF00'],
 			['Electron',			'electron',			'Tutorial Stuff',												'', '333333'],
 			['TheLegendTL',			'legend',			'Artist',														'',	'9900CC'],
-			['Camzta',				'camzta',			'Composer',														'',	'9933FF'],
+			['Camzta',				'camzta',			'Composer',														'https://twitter.com/camzta_',			'9933FF'],
 			['XFirasKiller',		'xkiller',			'Artist',														'', 'FF3366'],
 			['Tazzah', 				'tazzah',			'Artist + Musician',											'', '3366FF'],
-			['Mimikirb',			'mimi',				'Charter',														'', 'FFFF66'],
-			['The Scooshinator',	'thescooshinator',	'Charter',														'', 'FF9900'],
-			['Gotilb',				'gotilb',			'Composer',														'', '663300'],
-			['Joltrr',				'joltrr',			'Artist + Programmer',											'', 'FF6600'],
-			['Person',				'person',			'Beta Tester',													'',	'FFFFFF'],
+			['Mimikirb',			'mimi',				'Charter',														'https://twitter.com/2ndMimikirb', 		'FFFF66'],
+			['The Scooshinator',	'thescooshinator',	'Charter',														'https://twitter.com/scooshinator', 	'FF9900'],
+			['Gotilb',				'gotilb',			'Composer',														'https://twitter.com/GOTILB', 			'663300'],
+			['Joltrr',				'joltrr',			'Artist + Programmer',											'https://twitter.com/EeveedavisR', 		'FF6600'],
 			['MalyPlus',			'malyplus',			'Artist + Programmer',											'', '333333'],
-			['Jsa010',				'jsa',				'Programmer',													'', 'FF0000'],
+			['Jsa010',				'jsa',				'Programmer',													'https://twitter.com/_Jsa010_', 		'FF0000'],
 			['WuffGaming',			'wuffgaming',		'Charter',														'', '333333'],
 			['TreyBWN', 			'trey',				'Musician',														'', 'CC0000'],
-			['SuspendedFlame',		'suspendedflame',	'Charter',														'',	'FF0000'],
+			['SuspendedFlame',		'suspendedflame',	'Charter',														'https://twitter.com/SuspendedFlame',	'FF0000'],
 			['IrregularRed',		'Irregular',		'Artist',														'',	'00FF00'],
-			['WaffleModder',		'waffle',			'Artist',														'',	'C500C5'],
-			['ActuallyMaddix',		'maddix',			'Composer',														'',	'66199E'],
+			['WaffleModder',		'waffle',			'Artist',														'https://twitter.com/Waffle_Modder',	'C500C5'],
+			['ActuallyMaddix',		'maddix',			'Composer',														'https://twitter.com/ActuallyMaddix',	'66199E'],
+			['Shad',				'shad',				'Artist + Charter + Composer', 									'https://twitter.com/shadE64YT', 		'8400D6'],
 			[''],
 			['OS Engine Team'],
 			['notweuz_', 			'weuz', 			'Main Programmer of OS Engine', 								'https://twitter.com/notweuz_', 		'8633F2'],
@@ -187,7 +187,7 @@ class CreditsState extends MusicBeatState
 		add(descBox);
 
 		descText = new FlxText(50, FlxG.height + offsetThing - 25, 1180, "", 32);
-		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
+		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		descText.scrollFactor.set();
 		//descText.borderSize = 2.4;
 		descBox.sprTracker = descText;

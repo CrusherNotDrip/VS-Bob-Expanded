@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="story mode.png">
-	<SubTexture name="story mode static0000" x="0" y="0" width="269" height="271"/>
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="story mode0000" x="0" y="0" width="269" height="271"/>
 	<SubTexture name="story mode press0000" x="269" y="0" width="269" height="271"/>
 </TextureAtlas>

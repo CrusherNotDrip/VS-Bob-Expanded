@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="flower dance.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="floower dance0000" x="0" y="0" width="276" height="184" frameX="0" frameY="-143" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0001" x="276" y="0" width="276" height="184" frameX="0" frameY="-143" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0002" x="552" y="0" width="276" height="184" frameX="0" frameY="-143" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0003" x="828" y="0" width="276" height="184" frameX="0" frameY="-143" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0004" x="1104" y="0" width="186" height="279" frameX="-89" frameY="-46" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0005" x="1290" y="0" width="186" height="279" frameX="-89" frameY="-46" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0006" x="1476" y="0" width="186" height="279" frameX="-89" frameY="-46" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0007" x="1662" y="0" width="186" height="279" frameX="-89" frameY="-46" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0008" x="1848" y="0" width="157" height="326" frameX="-158" frameY="0" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0009" x="0" y="326" width="157" height="326" frameX="-158" frameY="0" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0010" x="157" y="326" width="157" height="326" frameX="-158" frameY="0" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0011" x="314" y="326" width="157" height="326" frameX="-158" frameY="0" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0012" x="471" y="326" width="274" height="183" frameX="-264" frameY="-157" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0013" x="745" y="326" width="274" height="183" frameX="-264" frameY="-157" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0014" x="1019" y="326" width="274" height="183" frameX="-264" frameY="-157" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0015" x="1293" y="326" width="274" height="183" frameX="-264" frameY="-157" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0016" x="1567" y="326" width="157" height="275" frameX="-260" frameY="-71" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0017" x="1724" y="326" width="157" height="275" frameX="-260" frameY="-71" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0018" x="1881" y="326" width="157" height="275" frameX="-260" frameY="-71" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0019" x="0" y="652" width="157" height="275" frameX="-260" frameY="-71" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0020" x="157" y="652" width="157" height="326" frameX="-151" frameY="-25" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0021" x="314" y="652" width="157" height="326" frameX="-151" frameY="-25" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0022" x="471" y="652" width="157" height="326" frameX="-151" frameY="-25" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0023" x="628" y="652" width="157" height="326" frameX="-151" frameY="-25" frameWidth="538" frameHeight="351"/>
+	<SubTexture name="floower dance0024" x="785" y="652" width="157" height="326" frameX="-151" frameY="-25" frameWidth="538" frameHeight="351"/>
+</TextureAtlas>

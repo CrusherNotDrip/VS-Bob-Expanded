@@ -1,0 +1,20 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "hellbobportrait",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "UliSHshaKSKAJSHLoiAUYAHDAHSDKAJDADHKHJkhsjAH101010100101010101010"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "ah shit here we go again"
+		}
+	]
+}

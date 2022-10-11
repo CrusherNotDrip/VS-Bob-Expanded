@@ -67,7 +67,8 @@ class ChartingState extends MusicBeatState
 		'Hey!',
 		'Hurt Note',
 		'GF Sing',
-		'No Animation'
+		'No Animation',
+		'Fire Death Note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -87,7 +88,12 @@ class ChartingState extends MusicBeatState
 		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"],
 		['Change Scroll Speed', "Value 1: Scroll Speed Multiplier (1 is default)\nValue 2: Time it takes to change fully in seconds."],
 		['Play Sound', 'Value 1: Name of sound (put sound file to /sounds/ directory)'],
-		['Set Property', "Value 1: Variable name\nValue 2: New value"]
+		['Set Property', "Value 1: Variable name\nValue 2: New value"],
+		['Flash Camera', 'Value 1: Speed'],
+		['hud flip', '>:)'],
+		['hud unflip', '>:('],
+		['shakey arrows', 'Value 1: Shake Strength (normal, little, medium, large)'],
+		['Wacky Zoom', '']
 	];
 
 	var _file:FileReference;

@@ -1,0 +1,2 @@
+name a Png file with the dimentions of 1280 x 720 "loadingscreen-(a number)"
+-Jolttr

@@ -40,7 +40,6 @@ class SelectinState extends MusicBeatState
         'covers',
         'joke',
         'random shit',
-        'nightmare mode'
 	];
 
 	var magenta:FlxSprite;
@@ -180,7 +179,7 @@ class SelectinState extends MusicBeatState
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 				changeItem(-1);
 			}
-
+				
 			if (controls.UI_RIGHT_P && enteredState == true)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
@@ -193,15 +192,13 @@ class SelectinState extends MusicBeatState
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				MusicBeatState.switchState(new MainMenuState());
 			}
-
-			if (controls.ACCEPT && enteredState == true)
-			{
-				menuItems.forEach(function(spr:FlxSprite)
+				if (controls.ACCEPT && enteredState == true)
 				{
-					if (spr.ID == curSelected)
-						spr.animation.play('pressed');
-				});
-
+					menuItems.forEach(function(spr:FlxSprite)
+					{
+						if (spr.ID == curSelected)
+							spr.animation.play('pressed');
+					});
 				selectedSomethin = true;
 				FlxG.sound.play(Paths.sound('confirmMenu'));
 
@@ -230,8 +227,6 @@ class SelectinState extends MusicBeatState
                                     MusicBeatState.switchState(new JokeState());
                                 case 'random shit':
                                     MusicBeatState.switchState(new RandomShitState());
-                                case 'nightmare mode':
-                                    MusicBeatState.switchState(new NightmareState());
 						    }
 				    	}});
 					}

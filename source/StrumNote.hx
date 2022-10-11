@@ -1,5 +1,6 @@
 package;
 
+import openfl.Assets;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
@@ -61,11 +62,21 @@ class StrumNote extends FlxSprite
 
 		#if sys
 		if (this.player == 1) {
-			if (FileSystem.exists(Paths.modsImages("NOTE_" + PlayState.SONG.player1 + '_assets'))) {
+			if (FileSystem.exists(Paths.image("NOTE_" + PlayState.SONG.player1 + '_assets'))) {
 				skin = "NOTE_" + PlayState.SONG.player1 + '_assets';
 			}
 		} else {
-			if (FileSystem.exists(Paths.modsImages("NOTE_" + PlayState.SONG.player2 + '_assets'))) {
+			if (FileSystem.exists(Paths.image("NOTE_" + PlayState.SONG.player2 + '_assets'))) {
+				skin = "NOTE_" + PlayState.SONG.player2 + '_assets';
+			}
+		}
+		#else
+		if (this.player == 1) {
+			if (Assets.exists("" + Paths.image("NOTE_" + PlayState.SONG.player1 + '_assets'))) {
+				skin = "NOTE_" + PlayState.SONG.player1 + '_assets';
+			}
+		} else {
+			if (Assets.exists("" + Paths.image("NOTE_" + PlayState.SONG.player2 + '_assets'))) {
 				skin = "NOTE_" + PlayState.SONG.player2 + '_assets';
 			}
 		}

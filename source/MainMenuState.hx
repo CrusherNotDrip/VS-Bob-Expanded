@@ -33,7 +33,7 @@ using StringTools;
 class MainMenuState extends MusicBeatState
 {
 	public static var osEngineVersion:String = '1.5.1';
-	public static var bobSexpandedVersion:String = '1.0.0'; //sex hehe
+	public static var bobSexpandedVersion:String = '1.0.0h'; //sex hehe || 💀💀💀💀
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -174,7 +174,7 @@ class MainMenuState extends MusicBeatState
 		FlxTween.tween(blackShit, {y: 0}, 1, {ease: FlxEase.bounceIn});
 		FlxTween.tween(blackShit2, {y: FlxG.height - 144}, 1, {ease: FlxEase.bounceIn});
 
-		var versionShit:FlxText = new FlxText(FlxG.width * 0.7, FlxG.height - 64, 0, "Bob Expanded v" + bobSexpandedVersion, 12);
+		var versionShit:FlxText = new FlxText(FlxG.width * 0.7, FlxG.height - 64, 0, "Bloberrrrrrrs Expanded v" + bobSexpandedVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);

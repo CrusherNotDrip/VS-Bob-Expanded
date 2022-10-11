@@ -725,7 +725,7 @@ class EditorPlayState extends MusicBeatState
 		if (!note.wasGoodHit)
 		{
 			switch(note.noteType) {
-				case 'Hurt Note': //Hurt note
+				case 'Hurt Note' | 'Fire Death Note': //Hurt note
 					noteMiss();
 					--songMisses;
 					if(!note.isSustainNote) {

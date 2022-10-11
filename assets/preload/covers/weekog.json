@@ -1,0 +1,32 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"og",
+			"bob",
+			[
+				255,
+				253,
+				255
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Cover",
+	"hiddenUntilUnlocked": false
+}

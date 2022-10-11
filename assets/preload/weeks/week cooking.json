@@ -1,0 +1,41 @@
+{
+	"storyName": "hosted by dan",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week bob",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"baking",
+			"cookingron",
+			[
+				206,
+				173,
+				0
+			]
+		],
+		[
+			"burger",
+			"cookingron",
+			[
+				206,
+				173,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week Cooking",
+	"hiddenUntilUnlocked": false
+}

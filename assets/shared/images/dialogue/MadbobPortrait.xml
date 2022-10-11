@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MadbobPortrait.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bob idle0000" x="0" y="0" width="223" height="241" frameX="0" frameY="-3" frameWidth="223" frameHeight="245"/>
+	<SubTexture name="bob idle0001" x="0" y="0" width="223" height="241" frameX="0" frameY="-3" frameWidth="223" frameHeight="245"/>
+	<SubTexture name="bob idle0002" x="223" y="0" width="222" height="245" frameX="-1" frameY="0" frameWidth="223" frameHeight="245"/>
+	<SubTexture name="bob idle0003" x="223" y="0" width="222" height="245" frameX="-1" frameY="0" frameWidth="223" frameHeight="245"/>
+	<SubTexture name="bob idle0004" x="223" y="0" width="222" height="245" frameX="-1" frameY="0" frameWidth="223" frameHeight="245"/>
+	<SubTexture name="bob talk0000" x="0" y="245" width="223" height="241" frameX="0" frameY="-1" frameWidth="223" frameHeight="242"/>
+	<SubTexture name="bob talk0001" x="0" y="245" width="223" height="241" frameX="0" frameY="-1" frameWidth="223" frameHeight="242"/>
+	<SubTexture name="bob talk0002" x="223" y="245" width="223" height="242"/>
+	<SubTexture name="bob talk0003" x="223" y="245" width="223" height="242"/>
+	<SubTexture name="bob talk0004" x="223" y="245" width="223" height="242"/>
+</TextureAtlas>

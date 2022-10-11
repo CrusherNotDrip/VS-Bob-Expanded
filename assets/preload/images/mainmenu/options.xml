@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="settings.png">
-	<SubTexture name="options static0000" x="0" y="0" width="269" height="265"/>
-	<SubTexture name="options press0000" x="269" y="0" width="269" height="265"/>
+<TextureAtlas imagePath="options.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="settings0000" x="0" y="0" width="269" height="265"/>
+	<SubTexture name="settings press0000" x="269" y="0" width="269" height="265"/>
 </TextureAtlas>

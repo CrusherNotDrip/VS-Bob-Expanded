@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bobportrait",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "leave"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "rap"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "madbobportrait",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "LEAVE"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "rap"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "also anyone else tell u look like dream"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "madbobportrait",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "....."
+		}
+	]
+}

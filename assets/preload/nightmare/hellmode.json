@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"alivent",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"spiked",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"sclera",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your New Week",
+	"weekName": "Nightmare",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

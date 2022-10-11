@@ -144,9 +144,9 @@ class Note extends FlxSprite
 					lowPriority = true;
 
 					if(isSustainNote) {
-						missHealth = 0;
+						missHealth = 0.1;
 					} else {
-						missHealth = 0;
+						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
 				case 'Alt Animation':
@@ -156,6 +156,21 @@ class Note extends FlxSprite
 					noMissAnimation = true;
 				case 'GF Sing':
 					gfNote = true;
+				case 'Fire Death Note':
+					ignoreNote = mustPress;
+					reloadNote('FIREDEATH');
+					noteSplashTexture = 'FIREDEATHnoteSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					lowPriority = true;
+
+					if(isSustainNote) {
+						missHealth = 0.1;
+					} else {
+						missHealth = 0.3;
+					}
+					hitCausesMiss = true;
 			}
 			noteType = value;
 		}

@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="covers.png">
-	<SubTexture name="covers static0000" x="0" y="0" width="269" height="265"/>
-	<SubTexture name="covers press0000" x="269" y="0" width="269" height="265"/>
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="covers 0000" x="0" y="0" width="269" height="265"/>
+	<SubTexture name="covers  press0000" x="269" y="0" width="269" height="265"/>
 </TextureAtlas>

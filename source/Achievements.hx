@@ -13,10 +13,10 @@ class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Achievement save tag, Hidden achievement
 		["Freaky on a Friday Night",	"Play on a Friday... Night.",						'friday_night_play',	 true],
 		["He kinda looks like Dream",	"Beat Week Bob with no Misses.",					'weekbob_nomiss',		false],
-		["Hellish Fun",					"Beat all Hell Mode Songs.",						'hellish_mode',			false],
+		//["Hellish Fun",					"Beat all Hell Mode Songs.",						'hellish_mode',			false],
 		["Lit!",						"Hit 20 Hell Fire Notes.",							'fire_note_hit',		false],
 		["Why?",						"Stay on the Title Screen for a minute.",			'title_one_minute',		false],
-		["Blindness",					"PFC Sclera.",										'sclera_pfc',			false],
+		//["Blindness",					"PFC Sclera.",										'sclera_pfc',			false],
 		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",	'ur_bad',				false],
 		["Perfectionist",				"Complete a Song with a rating of 100%.",			'ur_good',				false],
 		["Oversinging Much...?",		"Hold down a note for 10 seconds.",					'oversinging',			false],

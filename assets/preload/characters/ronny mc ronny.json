@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-270
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "ron idle"
+		},
+		{
+			"offsets": [
+				240,
+				-283
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "ron left"
+		},
+		{
+			"offsets": [
+				-110,
+				-279
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "ron right"
+		},
+		{
+			"offsets": [
+				50,
+				-480
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "ron down"
+		},
+		{
+			"offsets": [
+				4,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "ron up"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/ronny mc ronny",
+	"position": [
+		210,
+		0
+	],
+	"healthicon": "ronny",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		35
+	],
+	"camera_position": [
+		-370,
+		240
+	],
+	"sing_duration": 4,
+	"scale": 2.6
+}

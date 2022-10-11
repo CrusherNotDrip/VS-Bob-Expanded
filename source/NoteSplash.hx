@@ -20,7 +20,7 @@ class NoteSplash extends FlxSprite
 		var skin:String = 'noteSplashes';
 		if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) skin = PlayState.SONG.splashSkin;
 		#if sys
-		if (FileSystem.exists(Paths.image("noteSplashes_" + PlayState.SONG.player1))) {
+		if (FileSystem.exists("" + Paths.image("noteSplashes_" + PlayState.SONG.player1))) {
 			skin = 'noteSplashes_' + PlayState.SONG.player1;
 		}
 		#else
@@ -46,7 +46,7 @@ class NoteSplash extends FlxSprite
 			texture = 'noteSplashes';
 			if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) texture = PlayState.SONG.splashSkin;
 			#if sys
-			if (FileSystem.exists(Paths.image("noteSplashes_" + PlayState.SONG.player1))) {
+			if (FileSystem.exists("" + Paths.image("noteSplashes_" + PlayState.SONG.player1))) {
 				texture = 'noteSplashes_' + PlayState.SONG.player1;
 			}
 			#else

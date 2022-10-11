@@ -62,11 +62,11 @@ class StrumNote extends FlxSprite
 
 		#if sys
 		if (this.player == 1) {
-			if (FileSystem.exists(Paths.image("NOTE_" + PlayState.SONG.player1 + '_assets'))) {
+			if (FileSystem.exists("" + Paths.image("NOTE_" + PlayState.SONG.player1 + '_assets'))) {
 				skin = "NOTE_" + PlayState.SONG.player1 + '_assets';
 			}
 		} else {
-			if (FileSystem.exists(Paths.image("NOTE_" + PlayState.SONG.player2 + '_assets'))) {
+			if (FileSystem.exists("" + Paths.image("NOTE_" + PlayState.SONG.player2 + '_assets'))) {
 				skin = "NOTE_" + PlayState.SONG.player2 + '_assets';
 			}
 		}

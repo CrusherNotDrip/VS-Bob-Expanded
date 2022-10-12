@@ -1,5 +1,6 @@
 package;
 
+import flixel.tweens.FlxEase;
 import lime.app.Promise;
 import lime.app.Future;
 import flixel.FlxG;
@@ -8,6 +9,7 @@ import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.util.FlxTimer;
 import flixel.math.FlxMath;
+import flixel.tweens.FlxTween;
 
 import openfl.utils.Assets;
 import lime.utils.Assets as LimeAssets;
@@ -40,12 +42,12 @@ class LoadingState extends MusicBeatState
 		this.directory = directory;
 	}
 
-	var funkay:FlxSprite;
+	var bg:FlxSprite;
 	var loadBar:FlxSprite;
 	override function create()
 	{
 		var maxAmountImages:Int = Std.parseInt(Assets.getText("assets/images/loadingScreens/MaxLoadingScreens.txt"));
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loadingScreens/loadingscreen-' + FlxG.random.int(1, maxAmountImages)));
+		bg = new FlxSprite().loadGraphic(Paths.image('loadingScreens/loadingscreen-' + FlxG.random.int(1, maxAmountImages)));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		bg.screenCenter();
 		add(bg);
@@ -109,12 +111,11 @@ class LoadingState extends MusicBeatState
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
-		funkay.setGraphicSize(Std.int(0.88 * FlxG.width + 0.9 * (funkay.width - 0.88 * FlxG.width)));
-		funkay.updateHitbox();
 		if(controls.ACCEPT)
 		{
-			funkay.setGraphicSize(Std.int(funkay.width + 60));
-			funkay.updateHitbox();
+			FlxTween.tween(bg.scale, {x: 1.3}, 0.3, {ease: FlxEase.circOut, type: FlxTweenType.BACKWARD});
+			FlxTween.tween(bg.scale, {y: 1.3}, 0.3, {ease: FlxEase.circOut, type: FlxTweenType.BACKWARD});
+			bg.updateHitbox();
 		}
 
 		if(callbacks != null) {

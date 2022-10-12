@@ -470,7 +470,6 @@ class TitleState extends MusicBeatState
 				ClientPrefs.saveSettings();
 			}
 		}
-		trace(titleTime);
 		#end
 
 		var pressedEnter:Bool = FlxG.keys.justPressed.ENTER || controls.ACCEPT;

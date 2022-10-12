@@ -62,7 +62,7 @@
 	</section>
 
 	<!-- <define name="PRELOAD_ALL" /> -->
-	<define name="PRELOAD_ALL" />
+	<!-- <define name="PRELOAD_ALL" /> -->
 	<define name="NO_PRELOAD_ALL" unless="PRELOAD_ALL"/>
 	
 	<library name="videos"        preload="true" />

@@ -83,6 +83,7 @@ class Cache extends MusicBeatState
 		super.update(elapsed);
 	}
 
+	public static var updateVersion:String = "";
 	function cache()
 	{
 		#if !linux
@@ -103,7 +104,32 @@ class Cache extends MusicBeatState
 		}
 		#end
 
-		FlxG.switchState(new TitleState());
+		#if CHECK_FOR_UPDATES
+		if(ClientPrefs.checkForUpdates) {
+			trace('checking for update');
+			var http = new haxe.Http("https://raw.githubusercontent.com/CrusherNotDrip/VS-Bob-Expanded/main/gitVersion.txt");
+
+			http.onData = function (data:String)
+			{
+				updateVersion = data.split('\n')[0].trim();
+				var curVersion:String = MainMenuState.bobSexpandedVersion.trim();
+				trace('version online: ' + updateVersion + ', your version: ' + curVersion);
+				if(updateVersion != curVersion) {
+					trace('versions arent matching!');
+					FlxG.switchState(new OutdatedState());
+				}
+				else if(updateVersion == curVersion)
+					FlxG.switchState(new TitleState());
+			}
+
+			http.onError = function (error) {
+				trace('error: $error');
+				FlxG.switchState(new TitleState());
+			}
+
+			http.request();
+		}
+		#end
 	}
 
 }

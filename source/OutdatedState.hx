@@ -26,7 +26,7 @@ class OutdatedState extends MusicBeatState
 		warnText = new FlxText(0, 0, FlxG.width,
 			"Sup bro, looks like you're running an   \n
 			outdated version of Vs Bob Expanded (" + MainMenuState.bobSexpandedVersion + "),\n
-			please update to " + TitleState.updateVersion + "!\n
+			please update to " + #if !sys TitleState.updateVersion #else Cache.updateVersion #end + "!\n
 			Press ESCAPE to proceed anyway.\n
 			\n
 			Thank you for playing this mod!",
